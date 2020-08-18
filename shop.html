@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- My Style -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+</head>
+
+<body class="shop">
+  <header>
+    <section class="page-header clearfix">
+      <img class="header__logo" src="img/Logo.png" alt="">
+      <!--Навигация-->
+      <nav class="main-nav main-nav--catalog clearfix">
+        <ul class="main-nav__items clearfix">
+          <li class="main-nav__item"><a href="#">Информация</a></li>
+          <li class="main-nav__item"><a href="#">Новости</a></li>
+          <li class="main-nav__item"><a href="#">Прайс-лист</a></li>
+          <li class="main-nav__item"><a href="#">Магазин</a></li>
+          <li class="main-nav__item"><a href="#">Контакты</a></li>
+        </ul>
+      </nav>
+      <div class="user-block">
+        <a href="#" class="login" data-toggle="modal" data-target="#exampleModalCenter">Вход</a>
+      </div>
+    </section>
+  </header>
+  <section class="page__head--catalog">
+    <h1 class="page__title">Средства для ухода</h1>
+    <ul class="breadcrumb">
+      <li class="breadcrumbl-item"><a href="index.html">Главная</a></li>
+      <li class="breadcrumbl-item"><a href="shop.html">Магазин</a></li>
+      <li class="breadcrumbl-item active"><a href="/shop">Средства для ухода</a></li>
+    </ul>
+  </section>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-content-title">Личный кабинет</h2>
+
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Введите пожалуйста свой логин и пароль.</p>
+          <form class="login-form" action="/login" method="post">
+            <input type="text" class="iconUser" name="login" placeholder="Логин" required="required">
+            <input type="password" class="icon-password" name="password" placeholder="Пароль"
+              required="required">
+            <input type="checkbox" name="remember" id="remember-me">
+            <label for="remember-me">Запомни меня</label>
+            <a href="#" class="restore">Я забыл пароль!</a>
+            <button type="submit" class="btn">Войти</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Optional JavaScript -->
+  <script type="text/javascript" src="js/script.js"></script>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>
